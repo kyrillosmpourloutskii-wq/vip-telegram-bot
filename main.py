@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, ChatMemberHandler, CallbackQueryHandler, ContextTypes
 from telegram.constants import ChatPermissions
 
-BOT_TOKEN = os.getenv("8579732746:AAHzYn0IzhSg4fkfRx2f33VRnHaBbhfN0IE")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 VERIFY_TIMEOUT = 60
 pending = {}
 
