@@ -2,7 +2,7 @@ import asyncio
 import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, ChatMemberHandler, CallbackQueryHandler, ContextTypes
-from telegram.constants import ChatPermissions
+from telegram import ChatPermissions
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 VERIFY_TIMEOUT = 60
